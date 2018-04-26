@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppTryEvents.SinglePages.Page3">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <OnPlatform.Platforms>
+                <On Platform="iOS" Value="0, 20, 0, 0"/>
+            </OnPlatform.Platforms>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout.Children>
+                <Slider VerticalOptions="CenterAndExpand"
+                         />
+
+                <Label x:Name="valueLabel"
+                       Text="A simple Label"
+                       FontSize="Large"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+
+                <Button Text="Click Me!"
+                      HorizontalOptions="Center"
+                      VerticalOptions="CenterAndExpand"
+                       />
+            </StackLayout.Children>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

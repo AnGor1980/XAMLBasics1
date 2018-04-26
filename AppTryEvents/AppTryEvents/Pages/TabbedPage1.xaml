@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:singlepages="clr-namespace:AppTryEvents.SinglePages"
+             x:Class="AppTryEvents.Pages.TabbedPage1">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <singlepages:Page1 Title="Page1">
+            
+        </singlepages:Page1>
+        <NavigationPage Title="Page2">
+            <x:Arguments>
+                <singlepages:Page2 Title="Page2"/>
+            </x:Arguments>
+        </NavigationPage>
+        <singlepages:Page3 Title="Page3"/>
+        <singlepages:Page4 Title="Shared Resources"/>
+        <singlepages:Page5 Title="The x:Static Markup Extension"/>
+        <!--
+        <ContentPage Title="Tab 1">
+            <ContentPage.Content>
+                <Label
+                Text="Tab page1"
+                TextColor="DarkSlateBlue"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            </ContentPage.Content>
+        </ContentPage>
+        <ContentPage Title="Tab 2">
+            <ContentPage.Content>
+                <Label
+                Text="Tab page2"
+                TextColor="Brown"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            </ContentPage.Content>
+        </ContentPage>
+        <ContentPage Title="Tab 3">
+            <ContentPage.Content>
+                <Label
+                Text="Tab page3"
+                TextColor="Coral"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            </ContentPage.Content>
+        </ContentPage>-->
+    </TabbedPage.Children>
+</TabbedPage>
