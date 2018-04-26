@@ -16,6 +16,7 @@
         <singlepages:Page3 Title="Page3"/>
         <singlepages:Page4 Title="Shared Resources"/>
         <singlepages:Page5 Title="The x:Static Markup Extension"/>
+        <singlepages:Page6 Title="Slider Bindings Page"/>
         <!--
         <ContentPage Title="Tab 1">
             <ContentPage.Content>
